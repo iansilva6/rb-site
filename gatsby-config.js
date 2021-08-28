@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
+    siteUrl: "http://rbinspecoes.com.br/",
     title: "rb-site",
   },
   plugins: [
