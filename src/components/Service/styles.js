@@ -1,7 +1,9 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-    flex: 1 0 33%; 
+    @media screen and (min-width: 1200px) {
+        flex: 1 0 33%; 
+    }
     background-color: #fff;
     border-radius: 10px;
     border-color: red;

@@ -89,6 +89,7 @@ const About = styled.div`
 const Services = styled.div`
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     h2 {
       width: 100%;
       text-align: center;
