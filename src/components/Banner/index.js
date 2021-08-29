@@ -4,7 +4,7 @@ import React from 'react';
 import { Container, Text } from './styles';
 
 // Images
-import Logo from '../../images/logo.png';
+import Logo from '../../images/logo.webp';
 
 function Banner(props) {
     return (

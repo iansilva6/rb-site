@@ -28,14 +28,14 @@ const codeStyles = {
 const NotFoundPage = () => {
   return (
     <main style={pageStyles}>
-      <title>Not found</title>
-      <h1 style={headingStyles}>Page not found</h1>
+      <title>404</title>
+      <h1 style={headingStyles}>Página não encontrada!</h1>
       <p style={paragraphStyles}>
-        Sorry{" "}
+        Desculpe{" "}
         <span role="img" aria-label="Pensive emoji">
           😔
         </span>{" "}
-        we couldn’t find what you were looking for.
+       essa url não existe.
         <br />
         {process.env.NODE_ENV === "development" ? (
           <>
@@ -45,7 +45,7 @@ const NotFoundPage = () => {
           </>
         ) : null}
         <br />
-        <Link to="/">Go home</Link>.
+        <Link to="/">Ir para Home</Link>.
       </p>
     </main>
   )

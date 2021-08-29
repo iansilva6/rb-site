@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 import banner from '../../images/banner.png';
 
-export const Container = styled.div`
+export const Container = styled.header`
     width: 100%;
     padding: 20px;
     background: url(${banner})center no-repeat;
