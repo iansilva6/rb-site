@@ -18,6 +18,8 @@ export const Container = styled.header`
         flex-wrap: wrap;
         text-align: center;
         padding: 20px 0px;
+        background-image: none;
+        background-color: #222840;
     }
 `;
 
