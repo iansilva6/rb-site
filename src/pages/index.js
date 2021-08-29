@@ -171,7 +171,7 @@ const IndexPage = () => {
           <Card>
             <h4>Endereço</h4>
             <address>
-              Avenida Etelvino Alves de Lima 85b, Inácio Barbosa.<br></br>CEP 49040-696. Aracaju/SE
+              Rua da Mangaba S/N, Bairro: Parque Real<br></br>Serra Verde. CEP 42.813-052. Camaçari/BA.
             </address>
           </Card>
           <Card>

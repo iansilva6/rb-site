@@ -6,6 +6,7 @@ module.exports = {
     titleTemplate: "%s",
     twitterUsername: "",
     description: "Especializado em NR-13, Ensaios Não Destrutivos e Manutenção Alpinismo Industrial.",
+    keywords: "NR-13, Ensaios Não Destrutivos, Alpinismo Industrial, Enegnharia de Soldagem, Consultoria em Engenharia",
     image: "/images/logo.webp",
   },
   plugins: [
