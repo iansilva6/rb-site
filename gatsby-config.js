@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     url: "https://rbinspecoes.com.br",
+    siteUrl: "https://rbinspecoes.com.br",
     title: "RB Consultoria, Inspeção e Engenharia.",
     titleTemplate: "%s",
     twitterUsername: "",
