@@ -20,41 +20,46 @@ const services = [
     ]
   },
   {
-    title: "Adequação a NR-13",
+    title: "Consultoria e Serviços de Engenharia",
     array: [
-      "Inspeção inicial periódica, extraordinária de caldeiras, vasos de pressão e tubulações industriais",
-      "Acompanhamento de teste hidrostático",
-      "Reconstituição de prontuário técnico (cálculo de espessura mínima, PMTA, desenhos e etc.)",
-      "Classificação conforme classe NR-13",
-      "Elaboração de projetos de instalação",
-      "Treinamento para operadores em unidades de processo para atendimento a NR-13",
-      "Elaboração de planos de inspeção"
+      "Consultoria em Engenharia de Soldagem",
+      "Inspeção em tanques de armazenamento",
+      "Elaboração de parecer técnico, laudos e relatórios",
+      "Auditoria de qualidade",
+      "Consultoria para correções de não conformidade",
+      "Coordenação e Gerenciamento de Equipes de Inspeção",
+      "Diligencia mento em Montagens Industriais e Fabricação",
+      "Acompanhamento de obras mecânicas",
+      "Laudos e Relatórios técnicos de Solda"
     ]
   },
   {
-    title: "Adequação a NR-13",
+    title: "Qualificações, Documentação, Processos e Engenharia de Soldagem",
     array: [
-      "Inspeção inicial periódica, extraordinária de caldeiras, vasos de pressão e tubulações industriais",
-      "Acompanhamento de teste hidrostático",
-      "Reconstituição de prontuário técnico (cálculo de espessura mínima, PMTA, desenhos e etc.)",
-      "Classificação conforme classe NR-13",
-      "Elaboração de projetos de instalação",
-      "Treinamento para operadores em unidades de processo para atendimento a NR-13",
-      "Elaboração de planos de inspeção"
+      "Procedimentos de Soldagem (EPS)",
+      "Registro de Qualificação do Procedimento de Soldagem (RQPS)",
+      "Registro de Qualificação do Soldador (RQS)",
+      "Instrução de Execução e Inspeção de Soldagem (IEIS)",
+      "Desenvolvimento, Análise, Revisão e Documentação de Qualidade em Solda",
+      "Procedimentos de Inspeção e Execução"
     ]
   },
   {
-    title: "Adequação a NR-13",
+    title: "Ensaios Não Destrutivos",
     array: [
-      "Inspeção inicial periódica, extraordinária de caldeiras, vasos de pressão e tubulações industriais",
-      "Acompanhamento de teste hidrostático",
-      "Reconstituição de prontuário técnico (cálculo de espessura mínima, PMTA, desenhos e etc.)",
-      "Classificação conforme classe NR-13",
-      "Elaboração de projetos de instalação",
-      "Treinamento para operadores em unidades de processo para atendimento a NR-13",
-      "Elaboração de planos de inspeção"
+      "Partícula Magnética",
+      "Líquido Penetrante",
+      "Caixa de Vácuo",
+      "Ensaio visual e dimensional de solda",
+      "Ultrassom"
     ]
   },
+  {
+    title: "Manutenção Alpinismo Industrial",
+    array: [
+      "Manutenção com utilização de alpinismo industrial",
+    ]
+  }
 ]
 
 // Styles
@@ -70,8 +75,6 @@ const Container = styled.div`
     font-family: 'Lato', sans-serif;
     @media screen and (min-width: 1200px) {
         max-width: 1040px;
-        padding-right: 15px;
-        padding-left: 15px;
         margin-right: auto;
         margin-left: auto;
     }
@@ -79,10 +82,12 @@ const Container = styled.div`
 
 const About = styled.div`
     width: 100%;
+    padding: 15px;
     p {
       font-size: 18px;
       text-align: center;
       margin-top: 30px;
+      margin-bottom: 0px;
     }
 `;
 
@@ -90,6 +95,7 @@ const Services = styled.div`
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding: 15px;
     h2 {
       width: 100%;
       text-align: center;
