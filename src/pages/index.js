@@ -1,5 +1,6 @@
 import * as React from "react"
 import styled from 'styled-components'
+import SEO from "../components/seo"
 
 // Components
 import Banner from "../components/Banner"
@@ -148,6 +149,7 @@ const Card = styled.div`
 const IndexPage = () => {
   return (
     <Main>
+      <SEO/>
       <Container>
         <Banner/>
         <About>
