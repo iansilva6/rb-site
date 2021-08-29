@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    url: "http://rbinspecoes.com.br/",
+    url: "https://rbinspecoes.com.br",
     title: "RB Consultoria, Inspeção e Engenharia.",
     titleTemplate: "%s",
     twitterUsername: "",
@@ -11,6 +11,15 @@ module.exports = {
     "gatsby-plugin-styled-components",
     "gatsby-plugin-gatsby-cloud",
     "gatsby-plugin-react-helmet",
+    "gatsby-plugin-sitemap",
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://rbinspecoes.com.br',
+        sitemap: 'https://rbinspecoes.com.br/sitemap.xml',
+        policy: [{ userAgent: '*', allow: '/' }]
+      }
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
