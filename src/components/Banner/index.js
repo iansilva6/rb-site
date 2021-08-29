@@ -16,8 +16,8 @@ function Banner(props) {
                 layout="fixed"
             />
             <Text>
-                <h1>RB Inspeções, Consultoria e Engenharia.</h1>
-                <p>NR-13 | Ensaios Não Destrutivos | Engenharia | Manutenção Alpinismo Industrial</p>
+                <h1>RB Consultoria, Inspeção e Engenharia.</h1>
+                <p>NR-13 | Ensaios Não Destrutivos | Engenharia de Soldagem | Manutenção Alpinismo Industrial</p>
             </Text>
         </Container>
     );

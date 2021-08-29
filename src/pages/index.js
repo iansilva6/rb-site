@@ -5,9 +5,16 @@ import SEO from "../components/seo"
 // Components
 import Banner from "../components/Banner"
 import Service from "../components/Service"
+import WhatsappButton from "../components/WhatsappButton"
 
 // Images
 import banner from '../images/banner.webp';
+
+// Icons
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons'
+import { faMobileAlt } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 const services = [
   {
@@ -72,7 +79,8 @@ const Main = styled.main`
 
 const Container = styled.div`
   width: 100%;
-  background: #EEEEEE;
+  border-left: 2px solid #ececec;
+  border-right: 2px solid #ececec;
   display: flex;
   flex-wrap: wrap;
   font-family: 'Lato', sans-serif;
@@ -91,6 +99,10 @@ const About = styled.div`
     text-align: center;
     margin-top: 30px;
     margin-bottom: 0px;
+    line-height: 28px;
+    b {
+      font-weight: 900;
+    }
   }
 `;
 
@@ -104,6 +116,7 @@ const Services = styled.div`
     text-align: center;
     font-weight: 900;
     font-size: 30px;
+    color: #CC701A;
   }
 `;
 
@@ -111,11 +124,14 @@ const Footer = styled.footer`
   width: 100%;
   margin-top: 20px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   flex-wrap: wrap;
   padding: 25px 15px;
   background: url(${banner})center;
   background-size: cover;
+  @media screen and (min-width: 1200px) {
+    flex: 1 0 33%; 
+  }
 `;
 
 const Card = styled.div`
@@ -125,12 +141,17 @@ const Card = styled.div`
   @media screen and (max-width: 1200px) {
       width: 100%;
   }
+  svg {
+    color: #CC701A;
+    opacity: 1;
+  }
   h4 {
     color: #fff;
     margin-bottom: 10px;
-    font-size: 30px;
+    font-size: 26px;
     font-weight: 700;
     margin-left: 0px;
+    margin-top: 20px;
     font-family: 'Sulphur Point', sans-serif;
   } 
   a {
@@ -153,7 +174,11 @@ const IndexPage = () => {
       <Container>
         <Banner/>
         <About>
-          <p>Oferecemos serviços de consultoria e inspeções para empresas e industrias na <b>região metropolitana de Salvador/BA</b>.</p>
+          <p>
+            Com mais de <b>15 anos</b> de experiência, oferecemos serviços de consultoria e inspeções para empresas e industrias. 
+            Somos especializados em <b>NR-13</b>, oferecendo serviços de inspeção, treinamento e consultoria, além de outros 
+            serviços correlatos a <b>Engenharia Mecânica</b>.
+          </p>
         </About>
         <Services>
           <h2>Nossos Serviços</h2>
@@ -169,21 +194,25 @@ const IndexPage = () => {
         </Services>
         <Footer>
           <Card>
+            <FontAwesomeIcon icon={faMapMarkerAlt} size="2x" />
             <h4>Endereço</h4>
             <address>
               Rua da Mangaba S/N, Bairro: Parque Real<br></br>Serra Verde. CEP 42.813-052. Camaçari/BA.
             </address>
           </Card>
           <Card>
+            <FontAwesomeIcon icon={faMobileAlt} size="2x" />
             <h4>Telefone</h4>
-            <a href="tel:+5571991985448">(71) 9 9198 5448</a>
+            <a target="_blank" href="https://api.whatsapp.com/send?phone=5571991985448&text=Ol%C3%A1%2C%20vim%20atrav%C3%A9s%20do%20site%20www.rbinspecoes.com.br.%20">(71) 9 9198 5448 (WhatsApp)</a>
           </Card>
           <Card>
+            <FontAwesomeIcon icon={faEnvelope} size="2x" />
             <h4>E-mail</h4>
             <a href="mailto:rafaelbarreto.em@gmail.com">rafaelbarreto.em@gmail.com</a>
           </Card>
         </Footer>
       </Container>
+      <WhatsappButton/>
     </Main>
   )
 }
