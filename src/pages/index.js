@@ -203,12 +203,12 @@ const IndexPage = () => {
           <Card>
             <FontAwesomeIcon icon={faMobileAlt} size="2x" />
             <h4>Telefone</h4>
-            <a target="_blank" href="https://api.whatsapp.com/send?phone=5571991985448&text=Ol%C3%A1%2C%20vim%20atrav%C3%A9s%20do%20site%20www.rbinspecoes.com.br.%20">(71) 9 9198 5448 (WhatsApp)</a>
+            <a href="https://api.whatsapp.com/send?phone=5571991985448&text=Ol%C3%A1%2C%20vim%20atrav%C3%A9s%20do%20site%20www.rbinspecoes.com.br.%20" target={"_blank"} rel="noreferrer noopener" aria-label="Whatsapp">(71) 9 9198 5448 (WhatsApp)</a>
           </Card>
           <Card>
             <FontAwesomeIcon icon={faEnvelope} size="2x" />
             <h4>E-mail</h4>
-            <a href="mailto:rafaelbarreto.em@gmail.com">rafaelbarreto.em@gmail.com</a>
+            <a href="mailto:rafaelbarreto.em@gmail.com" target={"_blank"} rel="noreferrer noopener" aria-label="E-mail">rafaelbarreto.em@gmail.com</a>
           </Card>
         </Footer>
       </Container>

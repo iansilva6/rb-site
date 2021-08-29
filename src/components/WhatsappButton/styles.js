@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Float = styled.a`
+export const Float = styled.div`
     position:fixed;
 	width:60px;
 	height:60px;
