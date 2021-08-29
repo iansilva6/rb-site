@@ -25,7 +25,7 @@ const SEO = ({ title, description, image, article }) => {
   }
 
   return (
-    <Helmet title={seo.title} titleTemplate={titleTemplate}>
+    <Helmet title={seo.title} titleTemplate={titleTemplate} htmlAttributes={{lang: 'pt-br',}}>
       <meta name="description" content={seo.description} />
       <link rel="canonical" href={seo.url} />
       <meta name="image" content={seo.image} />

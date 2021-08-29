@@ -18,7 +18,7 @@ module.exports = {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
         host: 'https://rbinspecoes.com.br',
-        sitemap: 'https://rbinspecoes.com.br/sitemap.xml',
+        sitemap: 'https://rbinspecoes.com.br/sitemap/sitemap.xml',
         policy: [{ userAgent: '*', allow: '/' }]
       }
     },
