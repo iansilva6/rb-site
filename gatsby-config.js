@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
     url: "http://rbinspecoes.com.br/",
-    title: "rb-site",
+    title: "RB Consultoria, Inspeção e Engenharia.",
     titleTemplate: "%s",
     twitterUsername: "",
-    description: "Consultoria, Inspeção e Engenharia. Especializado em NR-13, Ensaios Não Destrutivos e Manutenção Alpinismo Industrial.",
+    description: "Especializado em NR-13, Ensaios Não Destrutivos e Manutenção Alpinismo Industrial.",
     image: "/images/logo.webp",
   },
   plugins: [

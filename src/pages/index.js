@@ -1,6 +1,5 @@
 import * as React from "react"
 import styled from 'styled-components'
-import { Helmet } from "react-helmet"
 
 // Components
 import Banner from "../components/Banner"
@@ -149,11 +148,6 @@ const Card = styled.div`
 const IndexPage = () => {
   return (
     <Main>
-      <Helmet>
-        <meta charSet="utf-8" />
-        <title>RB Consultoria, Inspeção e Engenharia. Especializado em NR-13</title>
-        <link rel="canonical" href="https://rbinspecoes.com.br/" />
-      </Helmet>
       <Container>
         <Banner/>
         <About>
