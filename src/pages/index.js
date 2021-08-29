@@ -7,7 +7,7 @@ import Banner from "../components/Banner"
 import Service from "../components/Service"
 
 // Images
-import banner from '../images/banner.png';
+import banner from '../images/banner.webp';
 
 const services = [
   {

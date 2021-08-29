@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import banner from '../../images/banner.png';
+import banner from '../../images/banner.webp';
 
 export const Container = styled.header`
     width: 100%;
