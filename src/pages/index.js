@@ -79,8 +79,6 @@ const Main = styled.main`
 
 const Container = styled.div`
   width: 100%;
-  border-left: 2px solid #ececec;
-  border-right: 2px solid #ececec;
   display: flex;
   flex-wrap: wrap;
   font-family: 'Lato', sans-serif;
@@ -88,6 +86,8 @@ const Container = styled.div`
       max-width: 1040px;
       margin-right: auto;
       margin-left: auto;
+      border-left: 2px solid #ececec;
+      border-right: 2px solid #ececec;
   }
 `;
 
